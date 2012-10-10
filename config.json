@@ -1,0 +1,8 @@
+{
+	"host_map": [
+		"$.mashery.com => www.mashery.com",
+		"$.mashery.com => mashery.com",
+		"$.dev.mashery.com => dev.mashery.com",
+		"$.blog.mashery.com => blog.mashery.com"
+	]
+}
