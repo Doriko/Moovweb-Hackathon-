@@ -1,0 +1,194 @@
+$sprites-url: url("http://localhost:3003/images/sprites.png");
+
+$sprites-width: 376px;
+$sprites-height: 416px;
+
+$sprites-footerlogo-x: 0px;
+$sprites-footerlogo-y: 0px;
+$sprites-footerlogo-width: 188px;
+$sprites-footerlogo-height: 23px;
+
+$sprites-headerleftbutton-x: 0px;
+$sprites-headerleftbutton-y: -23px;
+$sprites-headerleftbutton-width: 31px;
+$sprites-headerleftbutton-height: 20.5px;
+
+$sprites-headerlogo-x: 0px;
+$sprites-headerlogo-y: -43.5px;
+$sprites-headerlogo-width: 141px;
+$sprites-headerlogo-height: 42.5px;
+
+$sprites-headerrightbutton-x: 0px;
+$sprites-headerrightbutton-y: -86px;
+$sprites-headerrightbutton-width: 31.5px;
+$sprites-headerrightbutton-height: 26px;
+
+$sprites-mwmenulinkarrow-x: 0px;
+$sprites-mwmenulinkarrow-y: -112px;
+$sprites-mwmenulinkarrow-width: 10px;
+$sprites-mwmenulinkarrow-height: 16px;
+
+$sprites-mwmenuminus-x: 0px;
+$sprites-mwmenuminus-y: -128px;
+$sprites-mwmenuminus-width: 15px;
+$sprites-mwmenuminus-height: 16px;
+
+$sprites-mwmenuplus-x: 0px;
+$sprites-mwmenuplus-y: -144px;
+$sprites-mwmenuplus-width: 15px;
+$sprites-mwmenuplus-height: 16px;
+
+$sprites-whiteminus-x: 0px;
+$sprites-whiteminus-y: -160px;
+$sprites-whiteminus-width: 15px;
+$sprites-whiteminus-height: 16px;
+
+$sprites-whiteplus-x: 0px;
+$sprites-whiteplus-y: -176px;
+$sprites-whiteplus-width: 15px;
+$sprites-whiteplus-height: 16px;
+
+$sprites-whiterightarrow-x: 0px;
+$sprites-whiterightarrow-y: -192px;
+$sprites-whiterightarrow-width: 10px;
+$sprites-whiterightarrow-height: 16px;
+
+@mixin sprites-footerlogo() {
+  background: url("http://localhost:3003/images/sprites.png") no-repeat 0px 0px;
+  @include background-size(188px 208px);
+  width: 188px;
+  height: 23px;
+}
+
+@mixin sprites-headerleftbutton() {
+  background: url("http://localhost:3003/images/sprites.png") no-repeat 0px -23px;
+  @include background-size(188px 208px);
+  width: 31px;
+  height: 20.5px;
+}
+
+@mixin sprites-headerlogo() {
+  background: url("http://localhost:3003/images/sprites.png") no-repeat 0px -43.5px;
+  @include background-size(188px 208px);
+  width: 141px;
+  height: 42.5px;
+}
+
+@mixin sprites-headerrightbutton() {
+  background: url("http://localhost:3003/images/sprites.png") no-repeat 0px -86px;
+  @include background-size(188px 208px);
+  width: 31.5px;
+  height: 26px;
+}
+
+@mixin sprites-mwmenulinkarrow() {
+  background: url("http://localhost:3003/images/sprites.png") no-repeat 0px -112px;
+  @include background-size(188px 208px);
+  width: 10px;
+  height: 16px;
+}
+
+@mixin sprites-mwmenuminus() {
+  background: url("http://localhost:3003/images/sprites.png") no-repeat 0px -128px;
+  @include background-size(188px 208px);
+  width: 15px;
+  height: 16px;
+}
+
+@mixin sprites-mwmenuplus() {
+  background: url("http://localhost:3003/images/sprites.png") no-repeat 0px -144px;
+  @include background-size(188px 208px);
+  width: 15px;
+  height: 16px;
+}
+
+@mixin sprites-whiteminus() {
+  background: url("http://localhost:3003/images/sprites.png") no-repeat 0px -160px;
+  @include background-size(188px 208px);
+  width: 15px;
+  height: 16px;
+}
+
+@mixin sprites-whiteplus() {
+  background: url("http://localhost:3003/images/sprites.png") no-repeat 0px -176px;
+  @include background-size(188px 208px);
+  width: 15px;
+  height: 16px;
+}
+
+@mixin sprites-whiterightarrow() {
+  background: url("http://localhost:3003/images/sprites.png") no-repeat 0px -192px;
+  @include background-size(188px 208px);
+  width: 10px;
+  height: 16px;
+}
+
+.sprites-footerlogo {
+  background: url("http://localhost:3003/images/sprites.png") no-repeat 0px 0px;
+  @include background-size(188px 208px);
+  width: 188px;
+  height: 23px;
+}
+
+.sprites-headerleftbutton {
+  background: url("http://localhost:3003/images/sprites.png") no-repeat 0px -23px;
+  @include background-size(188px 208px);
+  width: 31px;
+  height: 20.5px;
+}
+
+.sprites-headerlogo {
+  background: url("http://localhost:3003/images/sprites.png") no-repeat 0px -43.5px;
+  @include background-size(188px 208px);
+  width: 141px;
+  height: 42.5px;
+}
+
+.sprites-headerrightbutton {
+  background: url("http://localhost:3003/images/sprites.png") no-repeat 0px -86px;
+  @include background-size(188px 208px);
+  width: 31.5px;
+  height: 26px;
+}
+
+.sprites-mwmenulinkarrow {
+  background: url("http://localhost:3003/images/sprites.png") no-repeat 0px -112px;
+  @include background-size(188px 208px);
+  width: 10px;
+  height: 16px;
+}
+
+.sprites-mwmenuminus {
+  background: url("http://localhost:3003/images/sprites.png") no-repeat 0px -128px;
+  @include background-size(188px 208px);
+  width: 15px;
+  height: 16px;
+}
+
+.sprites-mwmenuplus {
+  background: url("http://localhost:3003/images/sprites.png") no-repeat 0px -144px;
+  @include background-size(188px 208px);
+  width: 15px;
+  height: 16px;
+}
+
+.sprites-whiteminus {
+  background: url("http://localhost:3003/images/sprites.png") no-repeat 0px -160px;
+  @include background-size(188px 208px);
+  width: 15px;
+  height: 16px;
+}
+
+.sprites-whiteplus {
+  background: url("http://localhost:3003/images/sprites.png") no-repeat 0px -176px;
+  @include background-size(188px 208px);
+  width: 15px;
+  height: 16px;
+}
+
+.sprites-whiterightarrow {
+  background: url("http://localhost:3003/images/sprites.png") no-repeat 0px -192px;
+  @include background-size(188px 208px);
+  width: 10px;
+  height: 16px;
+}
