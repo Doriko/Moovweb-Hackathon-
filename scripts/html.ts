@@ -18,6 +18,7 @@ $("/html") {
 
   @import sections/header.ts
   @import sections/footer.ts
+  @import sections/header_footer_gen.ts
 
   @import mappings.ts
 }

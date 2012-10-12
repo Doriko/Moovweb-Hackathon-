@@ -7,12 +7,16 @@
 // File for global Uranium stylings
 @import "globals/_uranium.scss";
 
+// File for spriting
+@import "globals/_sprites.scss";
+
 // Site wide variables
 @import "globals/_variables.scss";
 
 // Header & Footer
 @import "sections/_header";
 @import "sections/_footer";
+@import "sections/_header_footer_gen";
 
 // Pages
 @import "pages/_home";
